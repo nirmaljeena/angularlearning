@@ -124,7 +124,7 @@ In the browser, we see:
 
       `<div>`
 
-        `<Main
+       **Note: This is our tag of npm package** `<Main
 
           props={
 
@@ -260,5 +260,8 @@ data.content = {
 
               TERMS_AND_CONDITIONS_LINK:"",
 
-              ABOUT_US_CONTENT:  "",
-`
+              ABOUT_US_CONTENT:  "",`
+
+ ##  If there is cjs.js error
+  run this command in terminal
+  `npm install core-js --save `
