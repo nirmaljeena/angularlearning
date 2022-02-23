@@ -93,13 +93,13 @@ In the new project, try to use one of your components by importing it:
 
 
 > App.js
-import { Button } from 'jawblia';
-import Flex from './layout/Flex';
+import { Login } from 'chalk-iria';
+
 function App() {
 return (
-  <Flex middle center column className="page" gap={1.5}>
+  <Flex >
    <h3>This is my new project</h3>
-   <Button label="test" kind="primary"/>
+   <Login/>
   </Flex>
 );
 }
@@ -107,3 +107,59 @@ export default App;
 
 In the browser, we see:
 ![NPM package ui](ui.png)
+
+
+## How to use It 
+
+
+`import {Main} from  'chalk-iriaresearch'
+import data from '../node_modules/chalk-iriaresearch/dist/componants/data.json'
+function App() {
+  console.log("hello",data)
+  return (
+    <>
+      <div>
+        <Main
+          props={
+            (data.content = {
+              SERVICE_API: " ",
+              FOGOT_PASSWORD: "",
+              UPDATE_PASSWORD: "",
+              LOGIN_API: "",
+              SITE_LOGO: "",
+              GOOGLE_RECAPTCH_ID: "",
+              ISCAPTCHER_ENABLED: "",
+              HEADER_BG_COLOR: "",
+              FOOTER_BG_COLOR: "",
+              FOOTER_FONT_COLOR: "",
+              BODY_BG_COLOR: "",
+              BODY_FONT_COLOR: "",
+              CONTACT_API: "",
+              PROVIDER: "",
+              PORTALNAME: "",
+              APP_NAME: "",
+              APP_NAME_SH: "",
+              ABOUT_US: "",
+              ABOUT_US_ISENABLED: "",
+              CONTACT_US: "",
+              CONTACT_US_ISENABLED: "",
+              NAME: "",
+              PRIVACY_POLICY: "",
+              PRIVACY_POLICY_ISENABLED: "",
+              PRIVACY_POLICY_LINK:
+                "",
+              TERMS_AND_CONDITIONS: "",
+              TERMS_AND_CONDITIONS_ISENABLED: "",
+              TERMS_AND_CONDITIONS_LINK:
+                "",
+              ABOUT_US_CONTENT:
+                "",
+            })
+          }
+        />
+      </div>
+    </>
+  );
+}
+export default App;`
+
