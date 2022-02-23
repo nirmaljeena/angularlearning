@@ -74,7 +74,7 @@ This is the first part of my package.json:
 The name here has to be a unique name that hasn’t been taken by an existing npm package (you can check if a name is taken using npm search). version is the package version, and must be changed whenever it’s republished. Version syntax indicates major, minor, and patch releases and more about it can be found here in the npm docs.
 description, keywords, and author are all optional fields that will give potential end users a better idea of the package. Full package.json here.
 
-`"name": "Chalk-iria",`
+`"name": "chalk-iriaresearch`
 `"description": "Two test React components",`
 `"author": "",`
 
@@ -88,18 +88,18 @@ The file is ready for npm publish.
 
 ### 4. Use the new package
 Check in the CLI and on your npm profile that the package has published. To make sure it’s working, open a different project on your local machine, and try to use the package:
-npm install chalk-iria
+npm install chalk-iriaresearch
 In the new project, try to use one of your components by importing it:
 
 
 > App.js
-import { Login } from 'chalk-iria';
+import { Main } from 'chalk-iriaresearch';
 
 function App() {
 return (
   <Flex >
    <h3>This is my new project</h3>
-   <Login/>
+   <Main/>
   </Flex>
 );
 }
@@ -110,7 +110,7 @@ In the browser, we see:
 
 
 ## How to use It 
-
+ **Note: This is our tag of npm package <Main/>**
 
 `import {Main} from  'chalk-iriaresearch'`
 
@@ -124,7 +124,7 @@ In the browser, we see:
 
       `<div>`
 
-       **Note: This is our tag of npm package** `<Main
+       `<Main
 
           props={
 
@@ -260,8 +260,8 @@ data.content = {
 
               TERMS_AND_CONDITIONS_LINK:"",
 
-              ABOUT_US_CONTENT:  "",`
-
+              ABOUT_US_CONTENT:  "",
+              
  ##  If there is cjs.js error
   run this command in terminal
   `npm install core-js --save `
