@@ -1,11 +1,11 @@
 ### Publish React components as an npm package
 
-Pre-conditions:
+## Pre-conditions:
 > Create an npm account and login. You can either login from the npm website or from the CLI by running npm login.
 
 > A React app. I created the boilerplate for this article with npx create-react-app npm-test. Run the app on your local machine.
 
-1. Create and isolate components to publish
+### 1. Create and isolate components to publish
 
 In the boilerplate app, I went into the src folder and deleted everything besides App.js, app.css, and index.js.
 I also added a folder called lib that will store everything I want to publish on npm. Inside lib , there is a folder called components to store the component elements and a file called index.js to export them.
@@ -19,12 +19,12 @@ importLogin from './components/Login';
 
 export {Login };
 
-2. Install Babel and build the dist folder
+### 2. Install Babel and build the dist folder
 To install Babel, run the following in the CLI:
-npm install --save-dev @babel/core @babel/cli @babel/preset-env 
-npm install -save @babel/polyfill
+  `npm install --save-dev @babel/core @babel/cli @babel/preset-env`
+  `npm install -save @babel/polyfill`
 
-#In the top-level folder of your project, add a file called babel.config.json and add the following presets:
+### In the top-level folder of your project, add a file called babel.config.json and add the following presets:
 
 {
  "presets": [
