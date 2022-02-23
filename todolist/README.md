@@ -1,4 +1,4 @@
-##Publish React components as an npm package
+### Publish React components as an npm package
 
 Pre-conditions:
 > Create an npm account and login. You can either login from the npm website or from the CLI by running npm login.
