@@ -1,4 +1,4 @@
-#Publish React components as an npm package
+##Publish React components as an npm package
 
 Pre-conditions:
 > Create an npm account and login. You can either login from the npm website or from the CLI by running npm login.
@@ -24,7 +24,7 @@ To install Babel, run the following in the CLI:
 npm install --save-dev @babel/core @babel/cli @babel/preset-env 
 npm install -save @babel/polyfill
 
-In the top-level folder of your project, add a file called babel.config.json and add the following presets:
+#In the top-level folder of your project, add a file called babel.config.json and add the following presets:
 
 {
  "presets": [
