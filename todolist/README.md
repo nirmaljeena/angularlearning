@@ -112,14 +112,14 @@ In the browser, we see:
 ## How to use It 
 
 
-`import {Main} from  'chalk-iriaresearch'
-import data from '../node_modules/chalk-iriaresearch/dist/componants/data.json'
-function App() {
-  console.log("hello",data)
-  return (
-    <>
-      <div>
-        <Main
+`import {Main} from  'chalk-iriaresearch'`
+`import data from '../node_modules/chalk-iriaresearch/dist/componants/data.json'`
+`function App() {`
+ 
+  `return (`
+    `<>`
+      `<div>`
+        `<Main
           props={
             (data.content = {
               SERVICE_API: " ",
@@ -156,10 +156,10 @@ function App() {
                 "",
             })
           }
-        />
-      </div>
-    </>
-  );
-}
-export default App;`
+       />`
+      `</div>`
+    `</>`
+  `);`
+`}`
+`export default App;`
 
