@@ -86,7 +86,7 @@ description, keywords, and author are all optional fields that will give potenti
 `
 The file is ready for npm publish.
 
-4. Use the new package
+### 4. Use the new package
 Check in the CLI and on your npm profile that the package has published. To make sure it’s working, open a different project on your local machine, and try to use the package:
 npm install chalk-iria
 In the new project, try to use one of your components by importing it:
@@ -112,8 +112,8 @@ In the browser, we see:
 ## How to use It 
 
 
-`import {Main} from  'chalk-iriaresearch'`;
-`import data from '../node_modules/chalk-iriaresearch/dist/componants/data.json'`;
+`import {Main} from  'chalk-iriaresearch'`
+`import data from '../node_modules/chalk-iriaresearch/dist/componants/data.json'`
 `function App() {`
  
   `return (`
