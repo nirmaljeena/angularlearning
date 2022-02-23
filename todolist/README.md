@@ -113,7 +113,9 @@ In the browser, we see:
 
 
 `import {Main} from  'chalk-iriaresearch'`
+
 `import data from '../node_modules/chalk-iriaresearch/dist/componants/data.json'`
+
 `function App() {`
  
   `return (`
