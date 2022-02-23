@@ -110,7 +110,8 @@ In the browser, we see:
 
 
 ## How to use It 
- **Note: This is our tag of npm package <Main/>**
+ **Note: This is our tag of npm package**
+ `<Main/>`
 
 `import {Main} from  'chalk-iriaresearch'`
 
@@ -261,7 +262,7 @@ data.content = {
               TERMS_AND_CONDITIONS_LINK:"",
 
               ABOUT_US_CONTENT:  "",
-              
+
  ##  If there is cjs.js error
   run this command in terminal
   `npm install core-js --save `
