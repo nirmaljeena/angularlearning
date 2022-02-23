@@ -112,8 +112,8 @@ In the browser, we see:
 ## How to use It 
 
 
-`import {Main} from  'chalk-iriaresearch'`
-`import data from '../node_modules/chalk-iriaresearch/dist/componants/data.json'`
+`import {Main} from  'chalk-iriaresearch'`;
+`import data from '../node_modules/chalk-iriaresearch/dist/componants/data.json'`;
 `function App() {`
  
   `return (`
